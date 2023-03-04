@@ -1,0 +1,241 @@
+
+body {
+margin: 0;
+}
+a {
+    text-decoration: none;
+}
+/* HEADER */
+
+header {
+    background-color: #461220;
+}
+.li-logo {
+    margin-right:auto;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffd6d1;
+    text-shadow: rgb(255, 0, 0) 1px 0 5px;
+    text-align: center;
+}
+header ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    padding: 1% 10% 0;
+    margin: 0;
+}
+header li a {
+    color: #FCB9B2;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+}
+header li a:hover {
+    color: #EDF2F4;
+}
+
+/* MAIN SECTION */
+
+.main-section {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #461220;
+}
+.presentation {
+    flex: 1 1 500px;
+    margin: 5% 5% 0;
+    display: flex;
+    flex-direction: column;
+}
+.ws-image {
+    max-width: 600px;
+    flex: 1 1 auto;
+    margin: 3% 5%;
+}
+.ws-image img {
+    max-width:100%;
+    border:  #fd8181 solid 1px;
+}
+
+.main-section p {
+    font-family: 'Tilt Neon', cursive;
+    color: #FED0BB;
+ padding: 0 10%;
+ text-align: center;
+}
+.main-section h1{
+    font-family: 'Gloock', cursive;
+    letter-spacing: 20px;
+    color: #fd8181;
+    text-align:center;
+    font-size: 40px;
+}
+.main-section button {
+    margin-top: 15px;
+    align-self: center;
+    font-family: 'Tilt Neon', cursive;
+    background-color: #fd8181;
+    font-size: 20px;
+    padding: 10px 30px;
+    color:  #461220;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 50% 20% / 10% 40%;
+}
+.main-section button:hover {
+    background-color: #ffffff;
+}
+
+/* INFORMATION */
+
+.info{
+    background-color: #fd8181;
+    margin: 0;
+    padding-bottom: 5%;
+    padding-top: 4%;
+}
+.info ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style-type: none;
+    margin: 0;
+    flex-wrap: wrap;
+}
+.info-img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 3%;
+    padding-top: 10%;
+   
+}
+.info-img img {
+   width: 200px;
+   height: 200px;
+    object-fit: cover;
+    border: solid 2px #FCB9B2;
+    border-radius: 50%;
+   
+}
+.info h2 {
+    text-align: center;
+    margin:0;
+    font-family: 'Gloock', cursive;
+    color: #461220;
+    text-align:center;
+    font-size: 40px;
+    padding-bottom: 2%;
+    
+}
+.info li{
+    max-width: 200px;
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+    color: #FED0BB;
+    font-size: 16px;
+}
+.info h3 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+    color:   #EDF2F4;
+    font-size: 20px;
+    padding: 4% 0 2%;
+    letter-spacing: 1px;
+}
+
+/* QUOTES */
+
+.quote {
+background-color: #461220;
+padding: 90px 30%;
+
+}
+span {
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: 'Tilt Neon', cursive;
+    color:#FCB9B2;
+    font-size: 20px;
+    
+}
+.quote h3 {
+    text-align: center;
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    color: #EDF2F4;
+    text-shadow: #fd8181 1px 0 5px;
+}
+
+
+/* SIGN UP */
+
+.sign-up {
+    background-color: #fd8181;
+    padding: 5% 25%;
+}
+.sign-up-div h4 {
+    font-family: 'Gloock', cursive;
+    color: #461220;
+    font-size: 30px;
+    margin: 0;
+    
+}
+.sign-up-div p {
+    font-family: 'Tilt Neon', cursive;
+    color: #fd8181;
+    font-size: 20px;
+}
+
+.square{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FED0BB;
+    padding: 8% 5%;
+    border-radius: 50% 20% / 10% 40%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.sign-up button {
+    margin-top: 15px;
+    align-self: center;
+    font-family: 'Tilt Neon', cursive;
+    background-color:  #461220;
+    font-size: 20px;
+    padding: 10px 30px;
+    color:  #FED0BB;
+    border: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 50% 20% / 10% 40%;
+    
+}
+.sign-up button:hover {
+    background-color: #fd8181;
+    color: #461220
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #461220;
+    padding: 2% 0;
+}
+footer h3 {
+    text-align: center;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 15px;
+    color: #FED0BB;
+    margin: 0;
+    letter-spacing: 5px;
+}
+
+
+/* Palette used: https://coolors.co/palette/461220-8c2f39-b23a48-fcb9b2-fed0bb
+images: https://www.pexels.com/it-it/ */
