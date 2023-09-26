@@ -1,2 +1,2 @@
 # simple-design-webpage
-[Live Demo](https://giuditms.github.io/rose-blossom-webpage/)
+https://giuditms.github.io/rose-blossom-webpage/
